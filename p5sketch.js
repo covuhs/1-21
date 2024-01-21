@@ -1,15 +1,23 @@
 let helvetica
 let font
 let txt1 = "A Covuhs\nPortfolio"
-let txt2 = "covuhs"
+let txt2 = "doma"
 
+//const p5container = document.querySelector("#p5-container");
+//let w = p5container.windowWidth;
+//let h = p5container.windowHeight;
 function preload() {
     font = loadFont('NeurealTrial-Mono.otf');
     helvetica = loadFont('NHaasGroteskTXPro-Rg.ttf');
 }
 
 function setup() {
+
+    //var clientHeight = document.getElementById('container').clientHeight;
+	//var clientWidth = document.getElementById('container').clientWidth;
+
     let cnv = createCanvas(windowWidth, windowHeight);  //letting the canvas be a variable
+    cnv.parent("container");
     cnv.style("position", "absolute");  //css styling, refer to 8:30 https://www.youtube.com/watch?v=dsBz80XWFvY
     cnv.style("inset", "0"); // for now, i don't really know what does this mean but it's css so it's probably in the docs
   } // also for .style go to https://p5js.org/reference/#/p5.Element/style
