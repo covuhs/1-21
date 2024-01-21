@@ -1,7 +1,7 @@
 let helvetica
 let font
 let txt1 = "A Covuhs\nPortfolio"
-let txt2 = "doma"
+let txt2 = "covuhs"
 
 //const p5container = document.querySelector("#p5-container");
 //let w = p5container.windowWidth;
@@ -13,8 +13,8 @@ function preload() {
 
 function setup() {
 
-    //var clientHeight = document.getElementById('container').clientHeight;
-	//var clientWidth = document.getElementById('container').clientWidth;
+    var clientHeight = document.getElementById('container').clientHeight;
+	var clientWidth = document.getElementById('container').clientWidth;
 
     let cnv = createCanvas(windowWidth, windowHeight);  //letting the canvas be a variable
     cnv.parent("container");
@@ -23,7 +23,7 @@ function setup() {
   } // also for .style go to https://p5js.org/reference/#/p5.Element/style
   
 function draw() {
-    background(10);
+    background(0);
     noStroke();
     fill(240);
     
