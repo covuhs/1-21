@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(windowWidth, 400);
+    createCanvas(windowWidth, windowHeight);
   }
   
 function draw() {
@@ -19,5 +19,5 @@ function draw() {
   }
 
 function windowResized() {
-    resizeCanvas(windowWidth, 400);
+    resizeCanvas(windowWidth, windowHeight);
 }
