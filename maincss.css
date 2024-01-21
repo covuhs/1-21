@@ -1,3 +1,49 @@
-h3 {
-    color: white
+html {
+	
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	scroll-behavior: smooth;
+}
+@font-face {
+    font-family: IBM Plex Mono;
+    src: url();
+}
+@font-face {
+    font-family: "Helvetica", sans-serif;
+    src: local("NHaasGroteskTXPro-Rg.ttf"), format("truetype");
+}
+
+.container {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+h2 {
+    color: white;
+    position: absolute;
+}
+
+h1 {
+    color: white;
+    position: relative;
+
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 1em;
+
+    font-family: "Helvetica", sans-serif;
+    color:white;
+    position: fixed;
+}
+
+body {
+    background-color: black;
 }
