@@ -6,10 +6,10 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(500, 400);
+    createCanvas(windowWidth, 400);
   }
   
-  function draw() {
+function draw() {
     background(50);
     fill(200);
     textFont(font);
@@ -17,3 +17,7 @@ function setup() {
     textSize(60);
     text(city,width/2,30);
   }
+
+function windowResized() {
+    resizeCanvas(windowWidth, 400);
+}
