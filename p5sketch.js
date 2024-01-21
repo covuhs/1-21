@@ -1,5 +1,5 @@
 let helvetica
-let city = "Thing"
+let txt1 = "A Covuhs\nPortfolio"
 
 function preload() {
     font = loadFont('NeurealTrial-Mono.otf');
@@ -12,12 +12,13 @@ function setup() {
   }
   
 function draw() {
-    background(50);
-    fill(200);
+    background(10);
+    fill(240);
     textFont(font);
-    textAlign(CENTER,CENTER);
     textSize(60);
-    text(city,width/2,30);
+    textLeading(50);
+    textAlign(LEFT, TOP);
+    text(txt1,10,0);
   }
 
 function windowResized() {
